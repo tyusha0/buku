@@ -17,9 +17,6 @@
 # You should have received a copy of the GNU General Public License
 # along with buku.  If not, see <http://www.gnu.org/licenses/>.
 
-
-
-
 import argparse
 import calendar
 import codecs
@@ -997,10 +994,10 @@ class BukuDb:
 
         # Set up strings to be printed
         if self.colorize:
-            bad_url_str = gettext('\x1b[1mIndex %d: Malformed URL\x1b[0m\n')
-            mime_str = gettext('\x1b[1mIndex %d: HTTP HEAD requested\x1b[0m\n')
-            blank_url_str = gettext('\x1b[1mIndex %d: No title\x1b[0m\n')
-            success_str = gettext('Title: [%s]\n\x1b[92mIndex %d: updated\x1b[0m\n')
+            bad_url_str = '\x1b[1m%s\x1b[0m\n' % gettext('Index %d: Malformed URL')
+            mime_str = '\x1b[1m%s\x1b[0m\n' % gettext('Index %d: HTTP HEAD requested')
+            blank_url_str = '\x1b[1m%s\x1b[0m\n' % gettext('Index %d: No title')
+            success_str = '%s\x1b[92m%s\x1b[0m\n' % (gettext('Title: [%s]\n'),gettext('Index %d: updated'))
         else:
             bad_url_str = gettext('Index %d: Malformed URL\n')
             mime_str = gettext('Index %d: HTTP HEAD requested\n')
@@ -5588,7 +5585,7 @@ POSITIONAL ARGUMENTS:
         setup_logger(LOGGER)
 
         # Enable prompt with reverse video
-        PROMPTMSG = gettext('\001\x1b[7\002mbuku (? for help)\001\x1b[0m\002 ')
+        PROMPTMSG = '\001\x1b[7\002m%s\001\x1b[0m\002 ' % gettext('buku (? for help)')
 
     # Enable browser output in case of a text based browser
     if os.getenv('BROWSER') in TEXT_BROWSERS:

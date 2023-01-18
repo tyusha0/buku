@@ -1,362 +1,360 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR ORGANIZATION
-# Anton Artsiushkevich <htovver@gmail.com>, YEAR.
 #
+# Anton Artsiushkevich <htovver@gmail.com>, YEAR., 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-18 16:27+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-01-20 01:10+0300\n"
+"PO-Revision-Date: 2023-01-20 00:24+0300\n"
+"Last-Translator: Anton Artsiushkevich <htovver@gmail.com>\n"
+"Language-Team: Russian <>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 22.12.1\n"
 
-#: buku:82
+#: buku:79
 msgid "buku (? for help): "
 msgstr "buku (? вызов справки): "
 
-#: buku:188 buku:291
+#: buku:185 buku:288
 msgid "cryptography lib(s) missing"
 msgstr ""
 
-#: buku:192
+#: buku:189
 msgid "Iterations must be >= 1"
 msgstr ""
 
-#: buku:205
+#: buku:202
 msgid "%s missing. Already encrypted?"
 msgstr ""
 
-#: buku:209 buku:316 buku:494
+#: buku:206 buku:313 buku:491
 msgid "Both encrypted and flat DB files exist!"
 msgstr ""
 
-#: buku:215
+#: buku:212
 msgid "Empty password"
 msgstr ""
 
-#: buku:218
+#: buku:215
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Пароли не совпадают"
 
-#: buku:263
+#: buku:260
 msgid "File encrypted"
 msgstr "Файл зашифрован"
 
-#: buku:295 buku:321 buku:357
+#: buku:292 buku:318 buku:354
 msgid "Decryption failed"
-msgstr ""
+msgstr "Расшифровка не удалась"
 
-#: buku:312
+#: buku:309
 msgid "%s missing"
-msgstr ""
+msgstr "%s отсутствует"
 
-#: buku:361
+#: buku:358
 msgid "File decrypted"
 msgstr "Файл расшифрован"
 
-#: buku:365
+#: buku:362
 msgid "Tainted file"
-msgstr ""
+msgstr "Повреждённый файл"
 
-#: buku:491
+#: buku:488
 msgid "Unlock database first"
-msgstr ""
+msgstr "Сначала разблокируйте базу данных"
 
-#: buku:498
+#: buku:495
 msgid ""
 "DB file is being created at %s.\n"
 "You should encrypt it."
 msgstr ""
 
-#: buku:624
-#, fuzzy
+#: buku:621
 msgid "Invalid URL"
-msgstr "Неверный ввод"
+msgstr "Некорректный URL"
 
-#: buku:630
+#: buku:627
 msgid "URL [%s] already exists at index %d"
-msgstr ""
+msgstr "URL-адрес [%s] уже существует по индексу %d"
 
-#: buku:637
+#: buku:634
 msgid "Malformed URL\n"
 msgstr "Неправильный URL\n"
 
-#: buku:641
+#: buku:638
 msgid "No title\n"
-msgstr ""
+msgstr "Без заголовка\n"
 
-#: buku:697
+#: buku:694
 msgid "Append the tags to ALL bookmarks? (y/n): "
-msgstr ""
+msgstr "Добавить теги ко ВСЕМ закладкам? (y/n): "
 
-#: buku:750
+#: buku:747
 msgid "Delete the tag(s) from ALL bookmarks? (y/n): "
 msgstr "Удалить тег(и) из ВСЕХ закладок? (y/n): "
 
-#: buku:766
+#: buku:763
 msgid "%d record(s) updated"
-msgstr ""
+msgstr "%d запись(ей) обновлена(о)"
 
-#: buku:842
+#: buku:839
 msgid "All URLs cannot be same"
 msgstr ""
 
-#: buku:851
+#: buku:848
 msgid "Please specify a tag"
 msgstr ""
 
-#: buku:907
+#: buku:904
 msgid "Malformed URL"
 msgstr "Неправильный URL"
 
-#: buku:911
+#: buku:908
 msgid "No title"
 msgstr ""
 
-#: buku:939
+#: buku:936
 msgid "Update ALL bookmarks? (y/n): "
 msgstr "Обновить ВСЕ закладки? (y/n): "
 
-#: buku:957 buku:1155 buku:1627 buku:1643 buku:1646 buku:1829 buku:1832
-#: buku:2189 buku:2191 buku:2842 buku:4415
+#: buku:954 buku:1152 buku:1624 buku:1640 buku:1643 buku:1826 buku:1829
+#: buku:2186 buku:2188 buku:2839 buku:4412
 msgid "No matching index %d"
 msgstr "Нет подходящего индекса %d"
 
-#: buku:960
+#: buku:957
 msgid "URL already exists"
 msgstr ""
 
-#: buku:995
+#: buku:992
 msgid "No matching index or title immutable or empty DB"
 msgstr ""
 
-#: buku:1000
-msgid "[1mIndex %d: Malformed URL[0m\n"
-msgstr ""
+#: buku:997
+msgid "Index %d: Malformed URL"
+msgstr "Индекс %d: неверный URL"
 
-#: buku:1001
-msgid "[1mIndex %d: HTTP HEAD requested[0m\n"
+#: buku:998
+msgid "Index %d: HTTP HEAD requested"
+msgstr "Индекс %d: запрошен HTTP HEAD"
+
+#: buku:999
+msgid "Index %d: Без заголовка"
+msgstr "Индекс %d удален"
+
+#: buku:1000
+msgid "Index %d: updated"
+msgstr "Индекс %d обновлён"
+
+#: buku:1000
+msgid "Title: [%s]\n"
 msgstr ""
 
 #: buku:1002
-msgid "[1mIndex %d: No title[0m\n"
-msgstr ""
-
-#: buku:1003
-msgid ""
-"Title: [%s]\n"
-"[92mIndex %d: updated[0m\n"
-msgstr ""
-"Заголовок: [%s]\n"
-"[92mИндекс %d: обновлен[0m\n"
-
-#: buku:1005
 msgid "Index %d: Malformed URL\n"
 msgstr ""
 
-#: buku:1006
+#: buku:1003
 msgid "Index %d: HTTP HEAD requested\n"
 msgstr ""
 
-#: buku:1007
+#: buku:1004
 msgid "Index %d: No title\n"
 msgstr ""
 
-#: buku:1008
+#: buku:1005
 msgid ""
 "Title: [%s]\n"
 "Index %d: updated\n"
 msgstr ""
 
-#: buku:1118
+#: buku:1115
 msgid "Records: %d, processed: %d !!!"
 msgstr ""
 
-#: buku:1143
+#: buku:1140
 msgid "EDITOR must be set to use index with -w"
 msgstr ""
 
-#: buku:1150 buku:1797
+#: buku:1147 buku:1794
 msgid "Empty database"
 msgstr ""
 
-#: buku:1319
-#, fuzzy
+#: buku:1316
 msgid "Invalid search option"
-msgstr "глубокий поиск включен"
+msgstr "Некорректная опция поиска"
 
-#: buku:1486
+#: buku:1483
 msgid "Index %d moved to %d"
 msgstr "Индекс %d перемещен на %d"
 
-#: buku:1577 buku:1806 buku:2148
+#: buku:1574 buku:1803 buku:2145
 msgid "Negative range boundary"
 msgstr ""
 
-#: buku:1593
+#: buku:1590
 msgid "Index %d-%d: 0 deleted"
 msgstr ""
 
-#: buku:1597
+#: buku:1594
 msgid "Delete these bookmarks? (y/n): "
-msgstr ""
+msgstr "Удалить эти закладки? (y/n): "
 
-#: buku:1603
+#: buku:1600
 msgid "Index %d-%d: %d deleted"
 msgstr ""
 
-#: buku:1616 buku:4373
+#: buku:1613 buku:4370
 msgid "No matching index"
 msgstr "Нет подходящего индекса"
 
-#: buku:1631
+#: buku:1628
 msgid "Delete this bookmark? (y/n): "
 msgstr "Удалить эту закладку? (y/n): "
 
-#: buku:1638
+#: buku:1635
 msgid "Index %d deleted"
 msgstr "Индекс %d удален"
 
-#: buku:1674
+#: buku:1671
 msgid "Delete the search results? (y/n): "
 msgstr "Удалить результаты поиска? (y/n): "
 
-#: buku:1713
+#: buku:1710
 msgid "delete_rec_all(): %s"
 msgstr ""
 
-#: buku:1725
+#: buku:1722
 msgid "Remove ALL bookmarks? (y/n): "
 msgstr "Удалить ВСЕ закладки? (y/n): "
 
-#: buku:1727
+#: buku:1724
 msgid "No bookmarks deleted"
 msgstr "Закладки не удалены"
 
-#: buku:1733
+#: buku:1730
 msgid "All bookmarks deleted"
 msgstr "Все закладки удалены"
 
-#: buku:1821 buku:2164
+#: buku:1818 buku:2161
 msgid "Index out of range"
 msgstr ""
 
-#: buku:1848
-#, fuzzy
+#: buku:1845
 msgid "0 records"
-msgstr "Записи не найдены"
+msgstr "0 записей"
 
-#: buku:1931
+#: buku:1928
 msgid "similar tags:\n"
 msgstr "похожие теги:\n"
 
-#: buku:1935
+#: buku:1932
 msgid ""
 "\n"
 "select: "
 msgstr ""
 
-#: buku:1975
+#: buku:1972
 msgid "Tags are same."
 msgstr ""
 
-#: buku:1992
+#: buku:1989
 msgid "Index %d updated"
-msgstr "Индекс %d обновлен"
+msgstr "Индекс %d обновлён"
 
-#: buku:2168
-#, fuzzy
+#: buku:2165
 msgid "Invalid index %d"
-msgstr "Неверный ввод"
+msgstr "Некорректный индекс %d"
 
-#: buku:2178
+#: buku:2175
 msgid "No bookmarks added yet ..."
-msgstr ""
+msgstr "Закладки еще не добавлены..."
 
-#: buku:2229
+#: buku:2226
 msgid "No records found"
 msgstr "Записи не найдены"
 
-#: buku:2233
+#: buku:2230
 msgid " exists. Overwrite? (y/n): "
-msgstr "существует. Перезаписать? "
+msgstr " существует. Перезаписать? "
 
-#: buku:2248 buku:2269
+#: buku:2245 buku:2266
 msgid "%s exported"
-msgstr ""
+msgstr "%s экспортирован(о)"
 
-#: buku:2493
+#: buku:2490
 msgid "buku does not support {} yet"
 msgstr ""
 
-#: buku:2497 buku:2605
+#: buku:2494 buku:2602
 msgid "Generate auto-tag (YYYYMonDD)? (y/n): "
 msgstr "Сгенерировать авто-тег (ГГГГМесДД)? (y/n): "
 
-#: buku:2502 buku:2616
+#: buku:2499 buku:2613
 msgid "Add parent folder names as tags? (y/n): "
 msgstr ""
 
-#: buku:2512
+#: buku:2509
 msgid "Import bookmarks from google chrome? (y/n): "
 msgstr "Импортировать закладки из google chrome? (y/n): "
 
-#: buku:2520
+#: buku:2517
 msgid "Could not import bookmarks from google-chrome"
 msgstr "Не удалось импортировать закладки из google-chrome"
 
-#: buku:2524
+#: buku:2521
 msgid "Import bookmarks from chromium? (y/n): "
 msgstr "Импортировать закладки из chromium? (y/n): "
 
-#: buku:2532
+#: buku:2529
 msgid "Could not import bookmarks from chromium"
 msgstr "Не удалось импортировать закладки из chromium"
 
-#: buku:2536
+#: buku:2533
 msgid "Import bookmarks from Vivaldi? (y/n): "
 msgstr "Импортировать закладки из Vivaldi? (y/n): "
 
-#: buku:2544
+#: buku:2541
 msgid "Could not import bookmarks from Vivaldi"
 msgstr "Не удалось импортировать закладки из Vivaldi"
 
-#: buku:2548
+#: buku:2545
 msgid "Import bookmarks from Firefox? (y/n): "
 msgstr "Импортировать закладки из Firefox? (y/n): "
 
-#: buku:2556
+#: buku:2553
 msgid "Could not import bookmarks from Firefox."
 msgstr "Не удалось импортировать закладки из Firefox."
 
-#: buku:2560
+#: buku:2557
 msgid "Import bookmarks from microsoft edge? (y/n): "
 msgstr "Импортировать закладки из microsoft edge? (y/n): "
 
-#: buku:2568
+#: buku:2565
 msgid "Could not import bookmarks from microsoft-edge"
 msgstr "Не удалось импортировать закладки из microsoft-edge"
 
-#: buku:2573 buku:2697
+#: buku:2570 buku:2694
 msgid ""
 "\n"
 "Auto-generated tag: %s"
 msgstr ""
 
-#: buku:2607
+#: buku:2604
 msgid "Append tags when bookmark exist? (y/n): "
 msgstr ""
 
-#: buku:2636 buku:2663
+#: buku:2633 buku:2660
 msgid "Beautiful Soup not found"
 msgstr ""
 
-#: buku:2645
+#: buku:2642
 msgid ""
 "Add bookmark's parent folder as tag?\n"
 "a: add all parent folders of the bookmark\n"
@@ -364,7 +362,7 @@ msgid ""
 "(a/[n]): "
 msgstr ""
 
-#: buku:2672
+#: buku:2669
 msgid ""
 "Add bookmark's parent folder as tag?\n"
 "y: add single, direct parent folder\n"
@@ -373,15 +371,15 @@ msgid ""
 "(y/a/[n]): "
 msgstr ""
 
-#: buku:2765
+#: buku:2762
 msgid "Either a valid DB index or URL required"
 msgstr ""
 
-#: buku:2864
+#: buku:2861
 msgid "Uncached"
 msgstr ""
 
-#: buku:2941
+#: buku:2938
 msgid ""
 "\n"
 "SYMBOLS:\n"
@@ -405,7 +403,7 @@ msgstr ""
 "Лицензия: %s\n"
 "Страница в Интернете: https://github.com/jarun/buku\n"
 
-#: buku:2962
+#: buku:2959
 msgid ""
 "\n"
 "PROMPT KEYS:\n"
@@ -461,72 +459,72 @@ msgstr ""
 "    q, ^D, двойной Enter   выход из buku\n"
 "\n"
 
-#: buku:4166
+#: buku:4163
 msgid "0 tags"
-msgstr ""
+msgstr "0 тэгов"
 
-#: buku:4197
+#: buku:4194
 msgid "Not a BukuDb instance"
 msgstr ""
 
-#: buku:4237
+#: buku:4234
 msgid "No more results"
 msgstr "Нет больше результатов"
 
-#: buku:4239
+#: buku:4236
 msgid "0 results"
 msgstr "0 результатов"
 
-#: buku:4295
+#: buku:4292
 msgid "deep search on"
 msgstr "глубокий поиск включен"
 
-#: buku:4297
+#: buku:4294
 msgid "deep search off"
 msgstr "глубокий поиск выключен"
 
-#: buku:4304
+#: buku:4301
 msgid "text browser override toggled"
 msgstr ""
 
-#: buku:4322 buku:4332 buku:4348 buku:4350 buku:4364 buku:4366 buku:4417
-#: buku:4420
+#: buku:4319 buku:4329 buku:4345 buku:4347 buku:4361 buku:4363 buku:4414
+#: buku:4417
 msgid "Invalid input"
-msgstr "Неверный ввод"
+msgstr "Некорректный ввод"
 
-#: buku:4334
+#: buku:4331
 msgid "%d updated"
 msgstr ""
 
-#: buku:4402
+#: buku:4399
 msgid "No matching index %s"
 msgstr "Нет подходящего индекса %s"
 
-#: buku:4468
+#: buku:4465
 msgid "URL copied to tmux buffer."
 msgstr "URL-адрес скопирован в буфер tmux."
 
-#: buku:4484
+#: buku:4481
 msgid "Failed to locate suitable clipboard utility"
 msgstr "Не удалось найти подходящую утилиту буфера обмена"
 
-#: buku:4775
+#: buku:4772
 msgid "Scheme missing in URI, trying http"
 msgstr ""
 
-#: buku:4857
+#: buku:4854
 msgid "This is the latest release"
 msgstr "Это последний выпуск"
 
-#: buku:4859
+#: buku:4856
 msgid "Latest upstream release is %s"
 msgstr "Последний выпуск основной ветки %s"
 
-#: buku:4929
+#: buku:4926
 msgid "Interrupted."
 msgstr "Прервано."
 
-#: buku:4952
+#: buku:4949
 msgid ""
 "\n"
 "Interrupted."
@@ -534,15 +532,15 @@ msgstr ""
 "\n"
 "Прервано."
 
-#: buku:4995
+#: buku:4992
 msgid "EDITOR is not set"
 msgstr ""
 
-#: buku:4999
+#: buku:4996
 msgid "Cannot edit index 0"
 msgstr ""
 
-#: buku:5030
+#: buku:5027
 msgid ""
 "# Lines beginning with \"#\" will be stripped.\n"
 "# Add URL in next line (single line)."
@@ -550,7 +548,7 @@ msgstr ""
 "# Строки, начинающиеся с \"#\", будут удалены.\n"
 "#Добавьте URL в следующую строку (одна строка)."
 
-#: buku:5038
+#: buku:5035
 msgid ""
 "# Add TITLE in next line (single line). Leave blank to web fetch, \"-\" for "
 "no title."
@@ -558,12 +556,12 @@ msgstr ""
 "# Добавьте ЗАГОЛОВОК в следующую строку (одна строка). Оставьте пустым для "
 "загрузки из Интернета, \"-\" без заголовка."
 
-#: buku:5047
+#: buku:5044
 msgid "# Add comma-separated TAGS in next line (single line)."
 msgstr ""
 "# Добавить ТЕГИ, разделенные запятыми, в следующей строке (одна строка)."
 
-#: buku:5051
+#: buku:5048
 msgid ""
 "# Add COMMENTS in next line(s). Leave blank to web fetch, \"-\" for no "
 "comments."
@@ -571,28 +569,27 @@ msgstr ""
 "# Добавьте КОММЕНТАРИИ в следующую строку (строки). Оставьте пустым для "
 "загрузки из Интернета, \"-\" без комментариев."
 
-#: buku:5083
+#: buku:5080
 msgid "Edit aborted"
 msgstr "Редактирование прервано"
 
-#: buku:5167
+#: buku:5164
 msgid "Cannot open editor"
 msgstr "Не могу открыть редактор"
 
-#: buku:5169
-#, fuzzy
+#: buku:5166
 msgid "Cannot open tempfile"
-msgstr "Не могу открыть редактор"
+msgstr "Не могу открыть временный файл"
 
-#: buku:5220
+#: buku:5217
 msgid "buku: waiting for input (unexpected? try --nostdin)"
 msgstr ""
 
-#: buku:5378
+#: buku:5375
 msgid "GENERAL OPTIONS"
 msgstr "ОБЩИЕ ОПЦИИ"
 
-#: buku:5379
+#: buku:5376
 msgid ""
 "    -a, --add URL [tag, ...]\n"
 "                         bookmark URL with comma-separated tags\n"
@@ -638,11 +635,11 @@ msgstr ""
 "    -h, --help           показать эту информацию и выйти\n"
 "    -v, --version        показать версию программы и выйти"
 
-#: buku:5412
+#: buku:5409
 msgid "EDIT OPTIONS"
 msgstr ""
 
-#: buku:5413
+#: buku:5410
 msgid ""
 "    --url keyword        bookmark link\n"
 "    --tag [+|-] [...]    comma-separated tags\n"
@@ -656,11 +653,11 @@ msgid ""
 "                         N=0: mutable (default), N=1: immutable"
 msgstr ""
 
-#: buku:5435
+#: buku:5432
 msgid "SEARCH OPTIONS"
 msgstr "ОПЦИИ ПОИСКА"
 
-#: buku:5436
+#: buku:5433
 msgid ""
 "    -s, --sany [...]     find records with ANY matching keyword\n"
 "                         this is the default search option\n"
@@ -702,11 +699,11 @@ msgstr ""
 "    -x, --exclude [...]  пропустить записи, соответствующие\n"
 "                         указанным ключевым словам"
 
-#: buku:5464
+#: buku:5461
 msgid "ENCRYPTION OPTIONS"
 msgstr "ОПЦИИ ШИФРОВАНИЯ"
 
-#: buku:5465
+#: buku:5462
 msgid ""
 "    -l, --lock [N]       encrypt DB in N (default 8) # iterations\n"
 "    -k, --unlock [N]     decrypt DB in N (default 8) # iterations"
@@ -714,11 +711,11 @@ msgstr ""
 "    -l, --lock [N]       зашифровать БД в N (по умолчанию 8) # итераций\n"
 "    -k, --unlock [N]     расшифровать БД за N (по умолчанию 8) # итераций"
 
-#: buku:5476
+#: buku:5473
 msgid "POWER TOYS"
 msgstr "МОЩНЫЕ ИГРУШКИ"
 
-#: buku:5477
+#: buku:5474
 msgid ""
 "    --ai                 auto-import bookmarks from web browsers\n"
 "                         Firefox, Chrome, Chromium, Vivaldi, Edge\n"
@@ -824,50 +821,46 @@ msgstr ""
 "    -g, --debug          показать отладочную информацию и подробные\n"
 "                         журналы"
 
-#: buku:5591
-msgid "[7mbuku (? for help)[0m "
-msgstr "[7mbuku (? вызов справки)[0m "
+#: buku:5588
+msgid "buku (? for help)"
+msgstr "buku (? вызов справки)"
 
-#: buku:5684
+#: buku:5681
 msgid "Bookmark a single URL at a time"
 msgstr ""
 
-#: buku:5743 buku:5767
+#: buku:5740 buku:5764
 msgid "no keyword"
-msgstr ""
+msgstr "нет ключевого слова"
 
-#: buku:5791
+#: buku:5788
 msgid "no expression"
-msgstr ""
+msgstr "нет выражения"
 
-#: buku:5828
+#: buku:5825
 msgid "No search criteria to exclude results from"
-msgstr ""
+msgstr "Нет критериев поиска, чтобы исключить результаты из"
 
-#: buku:5907
+#: buku:5904
 msgid "Updated results:\n"
 msgstr ""
 
-#: buku:5970
-#, fuzzy
+#: buku:5967
 msgid "Invalid index or range to update"
-msgstr "Недопустимый индекс или диапазон или комбинация"
+msgstr "Некорректный индекс или диапазон для обновления"
 
-#: buku:5988
-#, fuzzy
+#: buku:5985
 msgid "Invalid index or range to delete"
-msgstr "Недопустимый индекс или диапазон или комбинация"
+msgstr "Некорректный индекс или диапазон для удаления"
 
-#: buku:6003
+#: buku:6000
 msgid "Invalid index or range or combination"
-msgstr "Недопустимый индекс или диапазон или комбинация"
+msgstr "Некорректный индекс или диапазон или комбинация"
 
-#: buku:6028
-#, fuzzy
+#: buku:6025
 msgid "Invalid index or range to print"
-msgstr "Недопустимый индекс или диапазон или комбинация"
+msgstr "Некорректный индекс или диапазон для печати"
 
-#: buku:6063
-#, fuzzy
+#: buku:6060
 msgid "Invalid index or range to open"
-msgstr "Недопустимый индекс или диапазон или комбинация"
+msgstr "Некорректный индекс или диапазон для открытия"

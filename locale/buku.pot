@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-18 16:27+0300\n"
+"POT-Creation-Date: 2023-01-20 01:10+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,351 +15,351 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 
 
-#: buku:82
+#: buku:79
 msgid "buku (? for help): "
 msgstr ""
 
-#: buku:188 buku:291
+#: buku:185 buku:288
 msgid "cryptography lib(s) missing"
 msgstr ""
 
-#: buku:192
+#: buku:189
 msgid "Iterations must be >= 1"
 msgstr ""
 
-#: buku:205
+#: buku:202
 msgid "%s missing. Already encrypted?"
 msgstr ""
 
-#: buku:209 buku:316 buku:494
+#: buku:206 buku:313 buku:491
 msgid "Both encrypted and flat DB files exist!"
 msgstr ""
 
-#: buku:215
+#: buku:212
 msgid "Empty password"
 msgstr ""
 
-#: buku:218
+#: buku:215
 msgid "Passwords do not match"
 msgstr ""
 
-#: buku:263
+#: buku:260
 msgid "File encrypted"
 msgstr ""
 
-#: buku:295 buku:321 buku:357
+#: buku:292 buku:318 buku:354
 msgid "Decryption failed"
 msgstr ""
 
-#: buku:312
+#: buku:309
 msgid "%s missing"
 msgstr ""
 
-#: buku:361
+#: buku:358
 msgid "File decrypted"
 msgstr ""
 
-#: buku:365
+#: buku:362
 msgid "Tainted file"
 msgstr ""
 
-#: buku:491
+#: buku:488
 msgid "Unlock database first"
 msgstr ""
 
-#: buku:498
+#: buku:495
 msgid ""
 "DB file is being created at %s.\n"
 "You should encrypt it."
 msgstr ""
 
-#: buku:624
+#: buku:621
 msgid "Invalid URL"
 msgstr ""
 
-#: buku:630
+#: buku:627
 msgid "URL [%s] already exists at index %d"
 msgstr ""
 
-#: buku:637
+#: buku:634
 msgid ""
 "Malformed URL\n"
 msgstr ""
 
-#: buku:641
+#: buku:638
 msgid ""
 "No title\n"
 msgstr ""
 
-#: buku:697
+#: buku:694
 msgid "Append the tags to ALL bookmarks? (y/n): "
 msgstr ""
 
-#: buku:750
+#: buku:747
 msgid "Delete the tag(s) from ALL bookmarks? (y/n): "
 msgstr ""
 
-#: buku:766
+#: buku:763
 msgid "%d record(s) updated"
 msgstr ""
 
-#: buku:842
+#: buku:839
 msgid "All URLs cannot be same"
 msgstr ""
 
-#: buku:851
+#: buku:848
 msgid "Please specify a tag"
 msgstr ""
 
-#: buku:907
+#: buku:904
 msgid "Malformed URL"
 msgstr ""
 
-#: buku:911
+#: buku:908
 msgid "No title"
 msgstr ""
 
-#: buku:939
+#: buku:936
 msgid "Update ALL bookmarks? (y/n): "
 msgstr ""
 
-#: buku:957 buku:1155 buku:1627 buku:1643 buku:1646 buku:1829 buku:1832
-#: buku:2189 buku:2191 buku:2842 buku:4415
+#: buku:954 buku:1152 buku:1624 buku:1640 buku:1643 buku:1826 buku:1829
+#: buku:2186 buku:2188 buku:2839 buku:4412
 msgid "No matching index %d"
 msgstr ""
 
-#: buku:960
+#: buku:957
 msgid "URL already exists"
 msgstr ""
 
-#: buku:995
+#: buku:992
 msgid "No matching index or title immutable or empty DB"
+msgstr ""
+
+#: buku:997
+msgid "Index %d: Malformed URL"
+msgstr ""
+
+#: buku:998
+msgid "Index %d: HTTP HEAD requested"
+msgstr ""
+
+#: buku:999
+msgid "Index %d: No title"
+msgstr ""
+
+#: buku:1000
+msgid "Index %d: updated"
 msgstr ""
 
 #: buku:1000
 msgid ""
-"\033[1mIndex %d: Malformed URL\033[0m\n"
-msgstr ""
-
-#: buku:1001
-msgid ""
-"\033[1mIndex %d: HTTP HEAD requested\033[0m\n"
+"Title: [%s]\n"
 msgstr ""
 
 #: buku:1002
 msgid ""
-"\033[1mIndex %d: No title\033[0m\n"
+"Index %d: Malformed URL\n"
 msgstr ""
 
 #: buku:1003
 msgid ""
-"Title: [%s]\n"
-"\033[92mIndex %d: updated\033[0m\n"
-msgstr ""
-
-#: buku:1005
-msgid ""
-"Index %d: Malformed URL\n"
-msgstr ""
-
-#: buku:1006
-msgid ""
 "Index %d: HTTP HEAD requested\n"
 msgstr ""
 
-#: buku:1007
+#: buku:1004
 msgid ""
 "Index %d: No title\n"
 msgstr ""
 
-#: buku:1008
+#: buku:1005
 msgid ""
 "Title: [%s]\n"
 "Index %d: updated\n"
 msgstr ""
 
-#: buku:1118
+#: buku:1115
 msgid "Records: %d, processed: %d !!!"
 msgstr ""
 
-#: buku:1143
+#: buku:1140
 msgid "EDITOR must be set to use index with -w"
 msgstr ""
 
-#: buku:1150 buku:1797
+#: buku:1147 buku:1794
 msgid "Empty database"
 msgstr ""
 
-#: buku:1319
+#: buku:1316
 msgid "Invalid search option"
 msgstr ""
 
-#: buku:1486
+#: buku:1483
 msgid "Index %d moved to %d"
 msgstr ""
 
-#: buku:1577 buku:1806 buku:2148
+#: buku:1574 buku:1803 buku:2145
 msgid "Negative range boundary"
 msgstr ""
 
-#: buku:1593
+#: buku:1590
 msgid "Index %d-%d: 0 deleted"
 msgstr ""
 
-#: buku:1597
+#: buku:1594
 msgid "Delete these bookmarks? (y/n): "
 msgstr ""
 
-#: buku:1603
+#: buku:1600
 msgid "Index %d-%d: %d deleted"
 msgstr ""
 
-#: buku:1616 buku:4373
+#: buku:1613 buku:4370
 msgid "No matching index"
 msgstr ""
 
-#: buku:1631
+#: buku:1628
 msgid "Delete this bookmark? (y/n): "
 msgstr ""
 
-#: buku:1638
+#: buku:1635
 msgid "Index %d deleted"
 msgstr ""
 
-#: buku:1674
+#: buku:1671
 msgid "Delete the search results? (y/n): "
 msgstr ""
 
-#: buku:1713
+#: buku:1710
 msgid "delete_rec_all(): %s"
 msgstr ""
 
-#: buku:1725
+#: buku:1722
 msgid "Remove ALL bookmarks? (y/n): "
 msgstr ""
 
-#: buku:1727
+#: buku:1724
 msgid "No bookmarks deleted"
 msgstr ""
 
-#: buku:1733
+#: buku:1730
 msgid "All bookmarks deleted"
 msgstr ""
 
-#: buku:1821 buku:2164
+#: buku:1818 buku:2161
 msgid "Index out of range"
 msgstr ""
 
-#: buku:1848
+#: buku:1845
 msgid "0 records"
 msgstr ""
 
-#: buku:1931
+#: buku:1928
 msgid ""
 "similar tags:\n"
 msgstr ""
 
-#: buku:1935
+#: buku:1932
 msgid ""
 "\n"
 "select: "
 msgstr ""
 
-#: buku:1975
+#: buku:1972
 msgid "Tags are same."
 msgstr ""
 
-#: buku:1992
+#: buku:1989
 msgid "Index %d updated"
 msgstr ""
 
-#: buku:2168
+#: buku:2165
 msgid "Invalid index %d"
 msgstr ""
 
-#: buku:2178
+#: buku:2175
 msgid "No bookmarks added yet ..."
 msgstr ""
 
-#: buku:2229
+#: buku:2226
 msgid "No records found"
 msgstr ""
 
-#: buku:2233
+#: buku:2230
 msgid " exists. Overwrite? (y/n): "
 msgstr ""
 
-#: buku:2248 buku:2269
+#: buku:2245 buku:2266
 msgid "%s exported"
 msgstr ""
 
-#: buku:2493
+#: buku:2490
 msgid "buku does not support {} yet"
 msgstr ""
 
-#: buku:2497 buku:2605
+#: buku:2494 buku:2602
 msgid "Generate auto-tag (YYYYMonDD)? (y/n): "
 msgstr ""
 
-#: buku:2502 buku:2616
+#: buku:2499 buku:2613
 msgid "Add parent folder names as tags? (y/n): "
 msgstr ""
 
-#: buku:2512
+#: buku:2509
 msgid "Import bookmarks from google chrome? (y/n): "
 msgstr ""
 
-#: buku:2520
+#: buku:2517
 msgid "Could not import bookmarks from google-chrome"
 msgstr ""
 
-#: buku:2524
+#: buku:2521
 msgid "Import bookmarks from chromium? (y/n): "
 msgstr ""
 
-#: buku:2532
+#: buku:2529
 msgid "Could not import bookmarks from chromium"
 msgstr ""
 
-#: buku:2536
+#: buku:2533
 msgid "Import bookmarks from Vivaldi? (y/n): "
 msgstr ""
 
-#: buku:2544
+#: buku:2541
 msgid "Could not import bookmarks from Vivaldi"
 msgstr ""
 
-#: buku:2548
+#: buku:2545
 msgid "Import bookmarks from Firefox? (y/n): "
 msgstr ""
 
-#: buku:2556
+#: buku:2553
 msgid "Could not import bookmarks from Firefox."
 msgstr ""
 
-#: buku:2560
+#: buku:2557
 msgid "Import bookmarks from microsoft edge? (y/n): "
 msgstr ""
 
-#: buku:2568
+#: buku:2565
 msgid "Could not import bookmarks from microsoft-edge"
 msgstr ""
 
-#: buku:2573 buku:2697
+#: buku:2570 buku:2694
 msgid ""
 "\n"
 "Auto-generated tag: %s"
 msgstr ""
 
-#: buku:2607
+#: buku:2604
 msgid "Append tags when bookmark exist? (y/n): "
 msgstr ""
 
-#: buku:2636 buku:2663
+#: buku:2633 buku:2660
 msgid "Beautiful Soup not found"
 msgstr ""
 
-#: buku:2645
+#: buku:2642
 msgid ""
 "Add bookmark's parent folder as tag?\n"
 "a: add all parent folders of the bookmark\n"
@@ -367,7 +367,7 @@ msgid ""
 "(a/[n]): "
 msgstr ""
 
-#: buku:2672
+#: buku:2669
 msgid ""
 "Add bookmark's parent folder as tag?\n"
 "y: add single, direct parent folder\n"
@@ -376,15 +376,15 @@ msgid ""
 "(y/a/[n]): "
 msgstr ""
 
-#: buku:2765
+#: buku:2762
 msgid "Either a valid DB index or URL required"
 msgstr ""
 
-#: buku:2864
+#: buku:2861
 msgid "Uncached"
 msgstr ""
 
-#: buku:2941
+#: buku:2938
 msgid ""
 "\n"
 "SYMBOLS:\n"
@@ -398,7 +398,7 @@ msgid ""
 "Webpage: https://github.com/jarun/buku\n"
 msgstr ""
 
-#: buku:2962
+#: buku:2959
 msgid ""
 "\n"
 "PROMPT KEYS:\n"
@@ -424,124 +424,124 @@ msgid ""
 "\n"
 msgstr ""
 
-#: buku:4166
+#: buku:4163
 msgid "0 tags"
 msgstr ""
 
-#: buku:4197
+#: buku:4194
 msgid "Not a BukuDb instance"
 msgstr ""
 
-#: buku:4237
+#: buku:4234
 msgid "No more results"
 msgstr ""
 
-#: buku:4239
+#: buku:4236
 msgid "0 results"
 msgstr ""
 
-#: buku:4295
+#: buku:4292
 msgid "deep search on"
 msgstr ""
 
-#: buku:4297
+#: buku:4294
 msgid "deep search off"
 msgstr ""
 
-#: buku:4304
+#: buku:4301
 msgid "text browser override toggled"
 msgstr ""
 
-#: buku:4322 buku:4332 buku:4348 buku:4350 buku:4364 buku:4366 buku:4417
-#: buku:4420
+#: buku:4319 buku:4329 buku:4345 buku:4347 buku:4361 buku:4363 buku:4414
+#: buku:4417
 msgid "Invalid input"
 msgstr ""
 
-#: buku:4334
+#: buku:4331
 msgid "%d updated"
 msgstr ""
 
-#: buku:4402
+#: buku:4399
 msgid "No matching index %s"
 msgstr ""
 
-#: buku:4468
+#: buku:4465
 msgid "URL copied to tmux buffer."
 msgstr ""
 
-#: buku:4484
+#: buku:4481
 msgid "Failed to locate suitable clipboard utility"
 msgstr ""
 
-#: buku:4775
+#: buku:4772
 msgid "Scheme missing in URI, trying http"
 msgstr ""
 
-#: buku:4857
+#: buku:4854
 msgid "This is the latest release"
 msgstr ""
 
-#: buku:4859
+#: buku:4856
 msgid "Latest upstream release is %s"
 msgstr ""
 
-#: buku:4929
+#: buku:4926
 msgid "Interrupted."
 msgstr ""
 
-#: buku:4952
+#: buku:4949
 msgid ""
 "\n"
 "Interrupted."
 msgstr ""
 
-#: buku:4995
+#: buku:4992
 msgid "EDITOR is not set"
 msgstr ""
 
-#: buku:4999
+#: buku:4996
 msgid "Cannot edit index 0"
 msgstr ""
 
-#: buku:5030
+#: buku:5027
 msgid ""
 "# Lines beginning with \"#\" will be stripped.\n"
 "# Add URL in next line (single line)."
 msgstr ""
 
-#: buku:5038
+#: buku:5035
 msgid "# Add TITLE in next line (single line). Leave blank to web fetch, \"-\" for no title."
 msgstr ""
 
-#: buku:5047
+#: buku:5044
 msgid "# Add comma-separated TAGS in next line (single line)."
 msgstr ""
 
-#: buku:5051
+#: buku:5048
 msgid "# Add COMMENTS in next line(s). Leave blank to web fetch, \"-\" for no comments."
 msgstr ""
 
-#: buku:5083
+#: buku:5080
 msgid "Edit aborted"
 msgstr ""
 
-#: buku:5167
+#: buku:5164
 msgid "Cannot open editor"
 msgstr ""
 
-#: buku:5169
+#: buku:5166
 msgid "Cannot open tempfile"
 msgstr ""
 
-#: buku:5220
+#: buku:5217
 msgid "buku: waiting for input (unexpected? try --nostdin)"
 msgstr ""
 
-#: buku:5378
+#: buku:5375
 msgid "GENERAL OPTIONS"
 msgstr ""
 
-#: buku:5379
+#: buku:5376
 msgid ""
 "    -a, --add URL [tag, ...]\n"
 "                         bookmark URL with comma-separated tags\n"
@@ -565,11 +565,11 @@ msgid ""
 "    -v, --version        show the program version and exit"
 msgstr ""
 
-#: buku:5412
+#: buku:5409
 msgid "EDIT OPTIONS"
 msgstr ""
 
-#: buku:5413
+#: buku:5410
 msgid ""
 "    --url keyword        bookmark link\n"
 "    --tag [+|-] [...]    comma-separated tags\n"
@@ -583,11 +583,11 @@ msgid ""
 "                         N=0: mutable (default), N=1: immutable"
 msgstr ""
 
-#: buku:5435
+#: buku:5432
 msgid "SEARCH OPTIONS"
 msgstr ""
 
-#: buku:5436
+#: buku:5433
 msgid ""
 "    -s, --sany [...]     find records with ANY matching keyword\n"
 "                         this is the default search option\n"
@@ -606,21 +606,21 @@ msgid ""
 "    -x, --exclude [...]  omit records matching specified keywords"
 msgstr ""
 
-#: buku:5464
+#: buku:5461
 msgid "ENCRYPTION OPTIONS"
 msgstr ""
 
-#: buku:5465
+#: buku:5462
 msgid ""
 "    -l, --lock [N]       encrypt DB in N (default 8) # iterations\n"
 "    -k, --unlock [N]     decrypt DB in N (default 8) # iterations"
 msgstr ""
 
-#: buku:5476
+#: buku:5473
 msgid "POWER TOYS"
 msgstr ""
 
-#: buku:5477
+#: buku:5474
 msgid ""
 "    --ai                 auto-import bookmarks from web browsers\n"
 "                         Firefox, Chrome, Chromium, Vivaldi, Edge\n"
@@ -665,48 +665,48 @@ msgid ""
 "    -g, --debug          show debug information and verbose logs"
 msgstr ""
 
-#: buku:5591
-msgid "\001\033[7\002mbuku (? for help)\001\033[0m\002 "
+#: buku:5588
+msgid "buku (? for help)"
 msgstr ""
 
-#: buku:5684
+#: buku:5681
 msgid "Bookmark a single URL at a time"
 msgstr ""
 
-#: buku:5743 buku:5767
+#: buku:5740 buku:5764
 msgid "no keyword"
 msgstr ""
 
-#: buku:5791
+#: buku:5788
 msgid "no expression"
 msgstr ""
 
-#: buku:5828
+#: buku:5825
 msgid "No search criteria to exclude results from"
 msgstr ""
 
-#: buku:5907
+#: buku:5904
 msgid ""
 "Updated results:\n"
 msgstr ""
 
-#: buku:5970
+#: buku:5967
 msgid "Invalid index or range to update"
 msgstr ""
 
-#: buku:5988
+#: buku:5985
 msgid "Invalid index or range to delete"
 msgstr ""
 
-#: buku:6003
+#: buku:6000
 msgid "Invalid index or range or combination"
 msgstr ""
 
-#: buku:6028
+#: buku:6025
 msgid "Invalid index or range to print"
 msgstr ""
 
-#: buku:6063
+#: buku:6060
 msgid "Invalid index or range to open"
 msgstr ""
 
